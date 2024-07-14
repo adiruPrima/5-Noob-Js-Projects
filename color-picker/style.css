@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  background: linear-gradient(-45deg, #e9d79c, #ed9097, #90d4ed, #a0e8ba);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+  margin: 3rem;
+  padding: 2rem;
+  border: 3px solid black;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.buttons {
+  margin-top: 4rem;
+}
+
+.buttons button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}
